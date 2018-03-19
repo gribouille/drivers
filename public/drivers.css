@@ -1,0 +1,26 @@
+body {
+  margin: 40px;
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#main-map { height: 500px; }
+
+.legend {
+  margin-bottom: 20px;
+}
